@@ -1,0 +1,24 @@
+.orderlist-container {
+  padding: 5px;
+}
+
+.btn {
+  margin-left: 5px;
+  color:rgb(255, 255, 255)
+}
+
+.sort-btn {
+  background-color: rgb(41, 134, 211);
+}
+
+.sort-btn:hover {
+  background-color: rgb(85, 156, 214);
+}
+
+.clear-btn {
+  background-color: rgb(180, 50, 40);
+}
+
+.clear-btn:hover {
+  background-color: rgb(212, 71, 61);
+}
