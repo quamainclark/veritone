@@ -7,18 +7,18 @@
   color:rgb(255, 255, 255)
 }
 
-.sort-btn {
+.sort-direction {
   background-color: rgb(41, 134, 211);
 }
 
-.sort-btn:hover {
+.sort-direction:hover {
   background-color: rgb(85, 156, 214);
 }
 
-.clear-btn {
+.clear-list {
   background-color: rgb(180, 50, 40);
 }
 
-.clear-btn:hover {
+.clear-list:hover {
   background-color: rgb(212, 71, 61);
 }

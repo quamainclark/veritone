@@ -35,11 +35,11 @@ function OrderedList() {
   return (
     <div className="orderlist-container">
       <div>
-        <input ref={orderRef} type="text" onKeyDown={keyPress} />
-        <button className="btn sort-btn" onClick={handleSort}>{isAsc ? <ArrowDown /> : <ArrowUp />}</button>
-        <button className="btn clear-btn" onClick={handleClear}><Trash /></button>
+        <input className="add-item" ref={orderRef} type="text" onKeyDown={keyPress} />
+        <button className="btn sort-direction" onClick={handleSort}>{isAsc ? <ArrowDown /> : <ArrowUp />}</button>
+        <button className="btn clear-list" onClick={handleClear}><Trash /></button>
       </div>
-      <ul>
+      <ul className="items-list">
         {orderList.map((order, index) => (
           <li key={index}>{order}</li>
         ))}
