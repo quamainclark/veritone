@@ -10,7 +10,7 @@ The component includes a button to enable the user to sort either in ascending o
 
 * The clear button which the user can click to clear the list as well as any contents in the input box (essentially reverting to the component's default state).
 
-* The list element, which contains a series of <li> elements that represent the sorted list contents.
+* The list element, which contains a series of li elements that represent the sorted list contents.
 
 ## Environment Set Up:
 
